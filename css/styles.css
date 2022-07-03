@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 2em;
+    letter-spacing: -0.011em;
+    font-family: 'Inter var', sans-serif;
+    font-size: 16px;
+    color: #34495e;
+    background: #f8f9fa;
+  }
+
+#map {
+    height: 720px;
+    width: 80%;
+}
+
+.origin {
+    fill: red;
+}
+
+.destination {
+    fill: black;
+    stroke-width: 0px;
+}
+.destination:hover {
+    fill: blue;
+    stroke-width: 0px;
+}
+
+.line {
+    stroke-width: 2.5px;
+    stroke: #df0303;
+}
